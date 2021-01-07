@@ -3,3 +3,7 @@ practicar y retomar un poco lo aprendido en el curso de git.
 
 Continunado con la practica , vamos a poner un segundo commit en nuestro 
 repositorio local.
+
+Bien echo lo anterior ahora creamos este commit en una nueva rama del repositorio,
+lo que quiere decir que estos ( los cambios) solo deben aparecer cuando este en la rama 
+(Desarrollo).
