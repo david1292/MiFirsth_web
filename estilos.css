@@ -9,8 +9,7 @@ body{
 header{
     width: 100%;
     height: 80px;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .logo{
@@ -27,8 +26,6 @@ header{
     right: 0px;
     top: 5px;
     margin-right: 25px;
-
-    
 }
 .header__user--profile{
     text-align: right;
@@ -59,5 +56,24 @@ text-align: right;
 
 .header__user li a:hover{
     text-decoration: underline;
-
+}
+.main{
+    height: 300px;
+}
+.main__title{
+    font-size: 25px;
+}
+.main__input{
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 70%;
+    height: 50px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    padding: 0 20px;
+    background-color:rgba(255,255,255,0.1);
+    outline: none;
+}
+::placeholder{
+    color: #214151;
 }
