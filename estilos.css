@@ -77,3 +77,43 @@ text-align: right;
 ::placeholder{
     color: #214151;
 }
+.carousel{
+    width: 100%;
+    border: 2px white solid;
+    position: relative;
+    overflow: scroll;
+    padding: 20px;
+}
+.carousel__container{
+    padding-top: 20px;
+    border: 2px white solid;
+    white-space: nowrap;
+    margin: 70px 0;
+}
+
+.carousel-item{
+    width:250px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;   
+    transition: 450ms all; 
+    transform-origin: center left;
+}
+.carousel-item:hover ~ .carousel-item {
+    transform: translate3d(100px,0 , 0);
+}
+.carousel__container:hover .carousel-item {
+    opacity:0.3;
+}
+.carousel__container:hover .carousel-item:hover{
+    transform: scale(1.5);
+    opacity:1;
+}
+
+.carousel-item__img{
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
