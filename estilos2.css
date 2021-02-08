@@ -1,0 +1,5 @@
+.header{
+    display: flex;
+    background-image: radial-gradient(circle at 87.5% 12.5%, #bff7fb 0, #a4ecf5 12.5%, #85dff0 25%, #5fd1ec 37.5%, #1dc1e8 50%, #00b1e5 62.5%, #00a2e3 75%, #0094e1 87.5%, #0086df 100%);
+
+}
