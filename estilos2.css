@@ -28,12 +28,15 @@ background: linear-gradient(to bottom,#008891,#0f3057 );
 padding: 0px 30px;
 }
 .login__container{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
     background-color: rgba(255,255, 255, 0.1);
     border: 2px solid white;
     border-radius: 40px;
     padding: 60px 65px 40px;
     width: 300px;
-    min-height: 700px;
+    min-height: 500px;
     margin-bottom: 20px;
 }
 .login__container--form{
@@ -87,5 +90,50 @@ padding: 0px 30px;
 }
 
 .login__container-register  a:hover{
+    text-decoration: underline;
+}
+.input{
+    background-color: transparent;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 2px solid white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    outline: none;
+}
+::placeholder{
+    color:#fcf8e8;
+}
+.button{
+background-color: rgba(255,255, 255, 0.1);
+border: 1px ;
+border-radius: 25px;
+cursor: pointer;
+color: #fcf8e8;
+font-size: 16px;
+font-weight: bold;
+font-family: 'Mulish', sans-serif;
+padding: 12px;
+margin-bottom: 10px;
+}
+Footer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color:#0f3057;
+}
+footer a {
+    color: #fcf8e8;
+    cursor: pointer;
+    padding: 20px;
+    font-family:'Mulish', sans-serif ;
+    text-decoration: none;
+    font-size: 14px;
+}
+footer a:hover{
     text-decoration: underline;
 }
