@@ -137,3 +137,27 @@ footer a {
 footer a:hover{
     text-decoration: underline;
 }
+@media only screen and (max-width: 400px){
+
+.login__container{
+    border: none;
+    padding: 0;
+    background: linear-gradient(to bottom,#008891,#0f3057 );
+
+
+
+}
+Footer{
+    display: flex;
+    width: 100%;  
+    height: 80px;  
+    flex-direction: column;
+
+    
+    
+    }
+.footer a{
+    padding: 2px;
+    font-size: 12px;
+}
+}
